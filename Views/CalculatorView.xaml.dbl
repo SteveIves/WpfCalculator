@@ -1,0 +1,19 @@
+﻿import System
+import System.Windows
+import System.Windows.Controls
+
+namespace WpfCalculator.Views
+
+    ;;; <summary>
+    ;;; Interaction logic for CalculatorView.xaml
+    ;;; </summary>
+    public partial class CalculatorView extends Window
+    
+	    public method CalculatorView
+        endparams
+        proc
+            this.InitializeComponent()
+        endmethod
+ 
+    endclass
+endnamespace
